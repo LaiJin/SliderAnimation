@@ -45,10 +45,10 @@
 
 #pragma mark -
 #pragma mark ToolbarWithSliderDelegate
-- (void)barButtonItem:(UIBarButtonItem *)barButtonItem didSelectItemIndex:(NSInteger)index
+- (void)toolbarButtonItem:(UIButton *)toolbarButton didSelectItemIndex:(NSInteger)index
 {
     
-    NSLog(@"%@", barButtonItem.image.accessibilityIdentifier);
+//    NSLog(@"%@", toolbarButton.image.accessibilityIdentifier);
     NSLog(@"%i", index);
     
 }

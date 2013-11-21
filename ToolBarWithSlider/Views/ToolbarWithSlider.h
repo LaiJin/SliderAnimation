@@ -27,7 +27,7 @@
 @protocol ToolbarWithSliderDelegate <NSObject>
 
 
-- (void)barButtonItem:(UIBarButtonItem *)barButtonItem didSelectItemIndex:(NSInteger)index;
+- (void)toolbarButtonItem:(UIButton *)toolbarButton didSelectItemIndex:(NSInteger)index;
 
 
 @end
