@@ -44,7 +44,6 @@
         [self addSlideImageViewToToolbar];
         [self addSubview:self.toobar];
         
-        
     }
     
     return self;
@@ -85,7 +84,7 @@
     [toolbarButton setFrame:CGRectMake(0, 0, buttonBackgroundImage.size.width, buttonBackgroundImage.size.height)];
     [toolbarButton setBackgroundImage:buttonBackgroundImage forState:UIControlStateNormal];
     [toolbarButton addTarget:self action:@selector(selectedbarButtonItem:)
-                        forControlEvents:UIControlEventTouchUpInside];
+                        forControlEvents:UIControlEventTouchDown];
     [toolbarButton setShowsTouchWhenHighlighted:YES];
     toolbarButton.tag = tag;
     

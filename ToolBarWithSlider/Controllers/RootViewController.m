@@ -48,7 +48,7 @@
 - (void)toolbarButtonItem:(UIButton *)toolbarButton didSelectItemIndex:(NSInteger)index
 {
     
-//    NSLog(@"%@", toolbarButton.image.accessibilityIdentifier);
+    NSLog(@"%@", [[toolbarButton backgroundImageForState:UIControlStateNormal] accessibilityIdentifier]);
     NSLog(@"%i", index);
     
 }
